@@ -14,18 +14,15 @@
   display: none;
 }
 
-.try {
-  display: none;
-
-}
-
 img {
   width: 300px;
   height: 200px;
+  float: left;;
 }
 
 body {
   background-color: #7DCFD8;
+  margin: 30px;
   }
 
 .jumbotron {
@@ -43,13 +40,14 @@ body {
 .button {
   border-radius: 20px;
   float: center;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 20px;
+  margin-left: 50px;
+  padding: 10px 10px;
+
   }
 
 h1 {
   float:center;
+  color: red;
 }
 hr {
     width: 50%;

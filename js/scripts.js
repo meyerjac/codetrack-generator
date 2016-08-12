@@ -21,6 +21,7 @@ $(document).ready(function() {
         $('.javadev').show()
 
   event.preventDefault();
+
   console.log(work)
   console.log(looks1)
   console.log(looks2)
