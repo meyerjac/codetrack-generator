@@ -1,3 +1,28 @@
+.cssdev {
+  display:none;
+}
+
+.phpdev {
+  display:none;
+}
+
+.javadev  {
+  display:none;
+}
+
+.csharpdev  {
+  display:none;
+}
+
+.tryelse  {
+  display:none;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
 body {
   background-color: #7DCFD8;
   }
@@ -16,13 +41,18 @@ body {
 
 .button {
   border-radius: 20px;
-  float: right;
+  float: center;
   margin-bottom: 60px;
   }
 
 h1 {
-  color: #7DCFD8;
-  }
-  hr {
+  float:center;
+}
+hr {
     width: 50%;
-  }
+}
+
+
+
+
+  /**/
