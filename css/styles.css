@@ -1,21 +1,22 @@
 .cssdev {
-  display:none;
+  display: none;
 }
 
 .phpdev {
-  display:none;
+  display: none;
 }
 
 .javadev  {
-  display:none;
+  display: none;
 }
 
 .csharpdev  {
-  display:none;
+  display: none;
 }
 
-.tryelse  {
-  display:none;
+.try {
+  display: none;
+
 }
 
 img {
@@ -53,8 +54,3 @@ h1 {
 hr {
     width: 50%;
 }
-
-
-
-
-  /**/

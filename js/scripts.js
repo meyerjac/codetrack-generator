@@ -11,18 +11,14 @@ $(document).ready(function() {
     $(".csharpdev").hide();
     $(".tryelse").hide();
 
-// Java track done Done
-    if (work === 'start' || work === 'care' || work === 'mid') && ('enterprise') && (looks1 === 'no' || looks1 === 'yes') && (looks2 === 'no' || looks ='little') && (front === 'backend' || front === 'frontend')){
-      $('.javadev').show()
-
-    else if ((work === 'mid' || work === 'care' || work === 'enterprise') && (looks1 === 'yes') && (looks2 === 'yes') && (front === 'frontend')){
+    if (looks1 === 'tr' && looks2 === 'yes' && front === 'frontend')
       $('.cssdev').show()
-
-    else if ((work === 'mid' || work === 'care' || work === 'enterprise') && (looks1 === 'no') && (looks2 === 'maybe') && (front === 'backend')){
-    $('.phpdev').show()
-
-    else if ((work === 'mid' || work === 'enterprise') && (looks1 === 'no') && (looks2 === 'no') && (front === 'backend' || front === 'frontend')){
-    $('.csharpdev').show()
+    else if (work === 'mid' || work === 'enterprise' && looks1 === 'tr' && looks2 === 'no' && front === 'backend')
+      $('.phpdev').show()
+    else if (work === 'enterprise' && looks1 === 'fl' && looks2 === 'no' && front === 'backend')
+      $('.csharpdev').show()
+    else if (work === 'start' || work ==='mid' || work === 'enterprise' && looks1 === 'tr' && looks2 === 'no' && front === 'backend' || front === 'frontend')
+        $('.javadev').show()
 
   event.preventDefault();
   console.log(work)
