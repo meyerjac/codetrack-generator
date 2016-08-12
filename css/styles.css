@@ -1,3 +1,19 @@
+body {
+  background-color: #7DCFD8;
+}
+
+.jumbotron {
+  background-color: #C2E5AD;
+  padding-top: 25px;
+  margin-top: 50px
+}
+
+.button {
+  border-radius: 20px;
+  align-self: center;
+
+}
+
 h1 {
-color: #blue;
+color: #7DCFD8;
 }
