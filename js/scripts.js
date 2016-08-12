@@ -26,6 +26,7 @@ $(document).ready(function() {
   console.log(looks1)
   console.log(looks2)
   console.log(front)
+  console.log(song)
 
-      });
-      });
+  });
+});
