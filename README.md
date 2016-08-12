@@ -1,6 +1,6 @@
-# _Track Generator}_
+# _Track Generator_
 
-#### _This application will allow future/current students plug in interests and answer questions and It will spit out a Epicodus class track that suits your interests}, {August 12, 2016}_
+#### _This application will allow future/current students plug in interests and answer questions and It will spit out a Epicodus class track that suits your interests, August 12, 2016_
 
 #### By _**Jackson Meyer**_
 
