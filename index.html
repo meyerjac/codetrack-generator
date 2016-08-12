@@ -19,18 +19,98 @@ Learning Java is a great thing to do as it is one of the most popular programmin
 The C# path is a great path for those who want to work for large cororpations, c# is used in building custom internal software for management or inventory or anything that your enterprise needs. it is one of te most in demand laguages -->
 
   <body>
-    <div class="container">
-      <div class="row">
+    <form id="form">
+      <div class="container">
         <div class="jumbotron">
+          <div class="input">
           <h1>What programming track should you learn while at Epicodus!?</h1>
-          <h3>Enter the quiz below, answer the questions and I will tell you what track best suits you!</h3>
-
-          <div class="button">
-            <button type="enter" class="button" > <a href="question1.html">Enter the quiz!</a></button>
+          <h3>Enter your answers to the the quiz below, and I will tell you what track best suits you!</h3>
           </div>
-
         </div>
+        <hr>
+        <div class="jumbotron">
+          <h1>Question 1</h1>
+          <h3>Where would you like to work as soon as you graduate from epicodus? Please choose the answer that is most true</h3>
+          <label for="work">Workplace:</label>
+          <select id="work">
+            <option>A local startup</option>
+            <option>A large local tech company like Nike, Intel, AirBNB, or IBM</option>
+            <option>A mid sized tech company with growth potential, like cloudability, simple, cozy, or atheer </option>
+            <option>I don't care where as long as it pays 50k/yr</option>
+          </select>
+        </div>
+        <div class="jumbotron">
+          <h1>Question 2</h1>
+          <h3>You constantly amazed at how beautiful some websites are, and all you want to do is learn more about how to make a good-looking website</h3>
+          <label for="looks1"></label>
+          <select id="looks1">
+            <option>True</option>
+            <option>False</option>
+          </select>
+        </div>
+        <div class="jumbotron">
+          <h1>Question 3</h1>
+          <h3>Do you often find yourself obsessing over finding just the right margin, or layout of your page? Always making sure every color hits just right and the website really flows?</h3>
+          <label for="looks2"></label>
+          <select id="looks2">
+            <option>Yes, Always!!</option>
+            <option>no, never, I do not care about such things. </option>
+            <option> sometimes, i like it a little</option>
+          </select>
+        </div>
+        <div class="jumbotron">
+          <h1>Question 4</h1>
+          <h3>Would you rather have customers see your work (frontend), or are you okay with building internal software for a company that nobody ever sees but the team you work with will thankyou (backend)?</h3>
+          <label for="front"></label>
+          <select id="front">
+            <option value="Frontend">Frontend for sure, I want to get the credit for looks</option>
+            <option value="backend">backend definitly, I want the credit from doing meaty engineering</option>
+          </select>
+        </div>
+        <div class="jumbotron">
+          <h1>Question 5</h1>
+          <h3>Which one of the following tasks most excites you:</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="task" value="android" checked>
+              developing apps!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="task" value="webites" checked>
+              building websites
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="task" value="help" checked>
+              helping people!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="task" value="servers" checked>
+              Learning how servers work
+            </label>
+          </div>
+        </div>
+        <div class="jumbotron">
+          <h1>Question 6</h1>
+          <h3>Imagine this: You are stranded 3000 miles from any shoreline in the Pacific ocean in a terrible bamboo raft (very high hydro-drag-coefficient), you have a super wimpy 1 horsepower motor/propeller. But, it only runs when you are listening to music; the catch is you have a walkman that is stuck on repeat, so you have to listen to the same song over and over again to get rescued. Assuming energy generation and storage isn't an issue, which song would you choose to get resued? </h3>
+
+          <label for="song">What song</label>
+          <select id="song">
+            <option >Arms wide open, Creed</option>
+            <option>Photograph, Nickelback</option>
+            <option>Friday, Friday, gettin down on friday, Rebecca Black</option>
+            <option>Gangnam style, PSY</option>
+          </select>
+        </div>
+      </form>
+      <div class="button">
+      <button type="submit" class="button">Submit my answers</button>
       </div>
-    </div>
+    </form>
   </body>
 </html>

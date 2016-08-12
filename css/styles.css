@@ -1,19 +1,28 @@
 body {
   background-color: #7DCFD8;
-}
+  }
 
 .jumbotron {
   background-color: #C2E5AD;
   padding-top: 25px;
-  margin-top: 50px
-}
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  border-radius: 30px;
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
 
 .button {
   border-radius: 20px;
-  align-self: center;
-
-}
+  float: right;
+  margin-bottom: 60px;
+  }
 
 h1 {
-color: #7DCFD8;
-}
+  color: #7DCFD8;
+  }
+  hr {
+    width: 50%;
+  }
