@@ -8,6 +8,8 @@
 
 _This application will allow future/current students plug in interests and answer questions and It will spit out a track that suits your interests_
 
+_you can find the track generator application I made here, on my github pages: https://meyerjac.github.io/codetrack-generator/ _
+
 ## Setup/Installation Requirements
 
 * _Open the html doc in a browser_
