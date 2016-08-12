@@ -12,13 +12,13 @@ $(document).ready(function() {
     $(".tryelse").hide();
 
     if (looks1 === 'tr' && looks2 === 'yes' && front === 'frontend')
-      $('.cssdev').show()
+      $('.cssdev').slideDown()
     else if (work === 'mid' || work === 'enterprise' && looks1 === 'tr' && looks2 === 'no' && front === 'backend')
-      $('.phpdev').show()
+      $('.phpdev').slideDown()
     else if (work === 'enterprise' && looks1 === 'fl' && looks2 === 'no' && front === 'backend')
-      $('.csharpdev').show()
+      $('.csharpdev').slideDown()
     else if (work === 'start' || work ==='mid' || work === 'enterprise' && looks1 === 'tr' && looks2 === 'no' && front === 'backend' || front === 'frontend')
-        $('.javadev').show()
+        $('.javadev').slideDown()
 
   event.preventDefault();
 
